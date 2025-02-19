@@ -1,0 +1,173 @@
+/* lets do a comment */
+header{
+    background-color: lighblue;
+    text-align: center;
+}
+
+
+body{
+    background-color:whitesmoke;
+    color: black;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header Start */
+
+#nav-new-color {
+color: white;
+}
+
+#nav-new-color:hover {
+color: rgb(207, 199, 199);
+}
+
+/*Navbar*/
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+    color: #333;
+}
+
+
+.navbar-links .logo {
+    height: 50px;
+}
+
+.navbar-center {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar-rechts .btn {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.navbar-rechts .btn:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Content */
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+
+}
+
+.column {
+    float: left;
+    width: 50%;
+    justify-content: center;
+    align-itmes: center;
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+footer {
+    background-color: lightblue;
+    align-items: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+
+/* Button */
+.btn {
+    border: solid;
+    background-color: whitesmoke;
+    padding: 14px 28px;
+    margin-left: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover {text-color: red;}
+
+
+
+
+
+/*  Header Start  */
+.welcome-text{
+    color: #002db3;
+}
+
+.about-text{
+    color: #002db3;
+}
+
+
+/* Contact */
+
+#contactForm {
+background-color: #f9f9f9;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contactForm h2 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+#contactForm .form-group label {
+font-weight: bold;
+}
+
+#contactForm .form-control {
+border-radius: 5px;
+margin-bottom: 15px;
+}
+
+#contactForm button[type="submit"] {
+border-radius: 5px;
+}
